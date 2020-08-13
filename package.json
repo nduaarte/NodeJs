@@ -1,5 +1,19 @@
 {
+  "name": "estudandoNodeJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/redspaace/NodeJs.git",
+  "author": "Nycollas <nycollas.duaarte@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
